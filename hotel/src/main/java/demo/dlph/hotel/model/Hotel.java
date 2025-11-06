@@ -14,7 +14,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @NamedQuery(name = "Hotel.findAll", query = "SELECT h FROM Hotel h")
 public class Hotel implements Serializable {
-    private static final long serialVersionUID = 1L;
+    //private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
